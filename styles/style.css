@@ -8,7 +8,6 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
 .header {
   height: 100vh;
   min-height: 600px;
@@ -16,19 +15,7 @@
   border: 1px solid red;
   position: relative;
   display: flex;
-  /* выше установили ограничения для секции */
 }
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-
-
-/* и элемента с модификатором вида ключ-значение */
-/* .table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-} */
 .logo {
   background-image: url(../images/logo_place_header.svg);
 }
@@ -55,7 +42,6 @@
   width: 388px;
   line-height: 25px;
   font-size: 18px;
-  /* z-index: 15; */
 }
 .header__link {
   text-decoration: none;
@@ -89,7 +75,6 @@
   justify-content: space-between;
   width: 80%;
   border: 1px solid red;
-
 }
 .two-columns__brief {
   width: 175px;
@@ -110,11 +95,9 @@
 .two-columns__span-accent {
   font-weight: bolder;
 }
-
 .digits {
   border: 1px solid blue;
   margin-top: 100px;
-  /* position: relative; */
 }
 .section-title, .section-subtitle {
   margin: auto;
@@ -135,6 +118,7 @@
 .table {
   border: 1px solid red;
   margin: auto;
+  padding: 0;
   width: 1100px;
   display: flex;
   flex-wrap: wrap;
@@ -197,7 +181,6 @@
   font-size: 36px;
   text-decoration: none;
 }
-
 .kaufman {
   border: 1px solid blue;
   padding-top: 90px;
@@ -214,17 +197,31 @@
   z-index: 0;
 }
 .kaufman_theme_dark {
-  background-color: #1F1F1F;
   color: white;
+  background-color: #1F1F1F;
 }
+.section-title_theme_dark {
+    /* color: white; */
+    /* background-color: #1F1F1F; */
+  }
+.section-subtitle_theme_dark {
+    /* color: white; */
+    /* background-color: #1F1F1F; */
+  }
+.table_theme_dark {
+  /* color: white; */
+  /* background-color: #1F1F1F; */
+  }
 .table__cell_theme_dark {
+  /* color: white; */
   width: 200px;
-  z-index: 5;
+  margin-top: 80px;
+  z-index: 10;
+  border: 1px solid red;
+  }
+.table__heading_theme_dark {
+  /* color: white; */
+  }
+.table__text_theme_dark {
+  /* color: white; */
 }
-
-/* .kaufman_theme_dark, .section-title_theme_dark, .section-subtitle_theme_dark, .table_theme_dark,
-.table__cell_theme_dark, .table__heading_theme_dark, .table__text_theme_dark {
-  background-color: #1F1F1F;
-  color: white;
-  z-index: 0;
-} */
