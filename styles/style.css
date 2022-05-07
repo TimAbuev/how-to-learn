@@ -204,9 +204,6 @@
   padding-bottom: 90px;
   position: relative;
   overflow: hidden;
-
-  background-color: #1F1F1F;
-  color: white;
 }
 .kaufman__triangle {
   width: 877px;
@@ -216,23 +213,18 @@
   right: -210px;
   z-index: 0;
 }
-
-/* .kaufman_theme_dark, .section-title_theme_dark, .section-subtitle_theme_dark, .table_theme_dark,
-.table__heading_theme_dark, .table__text_theme_dark {
+.kaufman_theme_dark {
   background-color: #1F1F1F;
   color: white;
-  z-index: 0;
-} */
-
+}
 .table__cell_theme_dark {
   width: 200px;
   z-index: 5;
 }
 
-/* .table__heading_theme_dark {
-  z-index: 20;
-} */
-
-/* .table__text_theme_dark {
-  z-index: 20;
+/* .kaufman_theme_dark, .section-title_theme_dark, .section-subtitle_theme_dark, .table_theme_dark,
+.table__cell_theme_dark, .table__heading_theme_dark, .table__text_theme_dark {
+  background-color: #1F1F1F;
+  color: white;
+  z-index: 0;
 } */
