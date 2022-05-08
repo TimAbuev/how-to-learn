@@ -238,7 +238,7 @@
   justify-content: space-between;
 }
 .logo_place_footer {
-  background-image: url(../images/logo_place_footer.svg)
+  background-image: url(../images/logo_place_footer.svg);
 }
 .footer__author {
   line-height: 25px;
