@@ -35,7 +35,6 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bolder;
-  /* z-index: 15; */
 }
 .header__subtitle {
   position: absolute;
@@ -136,7 +135,6 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bolder;
-
 }
 .table__text {
   margin-top: 20px;
