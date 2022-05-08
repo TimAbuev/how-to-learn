@@ -15,6 +15,8 @@
   border: 1px solid red;
   position: relative;
   display: flex;
+  background-color: #f2f2f2;
+  z-index: 0;
 }
 .logo {
   width: 228px;
@@ -45,7 +47,7 @@
 }
 .header__link {
   text-decoration: none;
-  color: #3E89ED;
+  color: #2f80ed;
 }
 .header__main-illustration {
   position: absolute;
@@ -81,7 +83,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  color: #4A91EF;
+  color: #2f80ed;
 }
 .two-columns__main-text {
   border: 1px solid red;
@@ -147,6 +149,8 @@
   margin-top: 100px;
   min-height: 800px;
   position: relative;
+  background-color: #F2F2F2;
+  z-index: 0;
 }
 .feynman__image {
   width: 867px;
@@ -180,6 +184,7 @@
   line-height: 51px;
   font-size: 36px;
   text-decoration: none;
+  color: #2f80ed;
 }
 .kaufman {
   border: 1px solid red;
