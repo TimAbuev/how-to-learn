@@ -148,7 +148,6 @@
 }
 .feynman {
   margin-top: 100px;
-  padding-top: 100px;
   min-height: 890px;
   position: relative;
   background-color: #F2F2F2;
@@ -197,7 +196,7 @@
   padding-bottom: 90px;
   position: relative;
   overflow: hidden;
-  z-index: -10;
+  z-index: 0;
 }
 .kaufman__triangle {
   background-image: url(../images/kaufman-triangle.svg);
@@ -252,7 +251,10 @@
   display: flex;
   justify-content: space-between;
 }
-.footer__column-content-copyright {
+.footer__column {
+
+}
+.footer__column_content_copyright {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -267,7 +269,7 @@
   font-size: 18px;
   margin: 18px 0;
 }
-.footer__column-content-info {
+.footer__column_content_info {
 
 }
 .footer__column-heading {
@@ -289,7 +291,7 @@
   font-size: 18px;
   color: white;
 }
-.footer__column-content-social {
+.footer__column_content_social {
 
 }
 .footer__social-icon {
@@ -299,12 +301,12 @@
   display: inline-block;
   padding-right: 10px;
 }
-.footer__social-icon_facebook {
+.footer__social-icon_type_facebook {
   background-image: url(../images/facebook_color_white.svg);
 }
-.footer__social-icon_vk {
+.footer__social-icon_type_vk {
   background-image: url(../images/vk_color_white.svg);
 }
-.footer__social-icon_instagram {
+.footer__social-icon_type_instagram {
   background-image: url(../images/instagram_color_white.svg);
 }
