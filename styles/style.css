@@ -8,15 +8,7 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  position: relative;
-  display: flex;
-  background-color: #f2f2f2;
-  z-index: 0;
-}
+
 .logo {
   width: 228px;
   height: 32px;
