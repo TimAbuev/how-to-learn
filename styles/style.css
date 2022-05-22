@@ -9,27 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.kaufman {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  position: relative;
-  overflow: hidden;
-  z-index: 0;
-}
-.kaufman__triangle {
-  background-image: url(../images/kaufman-triangle.svg);
-  background-size: 877px 877px;
-  width: 877px;
-  height: 877px;
-  position: absolute;
-  top: 0;
-  right: -210px;
-  z-index: -10;
-}
-.kaufman_theme_dark {
-  color: white;
-  background-color: #1F1F1F;
-}
 .section-title_theme_dark {
     /* color: white; */
     /* background-color: #1F1F1F; */
