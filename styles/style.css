@@ -9,22 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.table_theme_dark {
-  /* color: white; */
-  /* background-color: #1F1F1F; */
-  }
-.table__cell_theme_dark {
-  /* color: white; */
-  width: 200px;
-  margin-top: 80px;
-  z-index: 10;
-  }
-.table__heading_theme_dark {
-  /* color: white; */
-  }
-.table__text_theme_dark {
-  /* color: white; */
-}
 .footer {
   color: white;
   background-color: #1F1F1F;
