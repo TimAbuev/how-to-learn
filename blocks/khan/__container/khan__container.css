@@ -1,3 +1,5 @@
 .khan__container {
   border: 2px solid blue;
+  width: 80%;
+  margin: auto;
 }
