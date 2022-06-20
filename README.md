@@ -4,3 +4,5 @@
 Файловая структура собрана по системе NESTED.
 Была применена одна анимация на две фигуры.
 
+[Ссылка на Github pages](https://timabuev.github.io/how-to-learn/)
+
